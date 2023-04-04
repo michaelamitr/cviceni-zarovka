@@ -1,7 +1,7 @@
 console.log('funguju!');
 
-const classAdd = () => {
+const classToggle = () => {
   document.querySelector('.bulb').classList.toggle('bulb--on');
 };
 
-document.addEventListener('keydown', classAdd);
+document.addEventListener('click', classToggle);
